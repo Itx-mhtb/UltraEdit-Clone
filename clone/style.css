@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em 1em;
+}
+
+.logo img {
+    width: 173px;
+}
+
+.right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1em; */
+}
+
+.right ul li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 15px;
+    padding: 0px 8px 10px 0px
+}
+.right ul li a:nth-child(6){
+font-size: 23px;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3;
+    font-family: system-ui, 'Segoe UI', 'Open Sans';
+    font-weight: 300;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.first p {
+    font-size: 2.5em;
+
+}
+
+.first p span {
+    font-weight: 500;
+}
+
+.first .review {
+    align-items: center;
+    display: flex;
+    gap: 23px;
+}
+
+.review img {
+    width: 100px;
+}
+
+.second p {
+    font-size: 20px;
+    font-family: "popins";
+    line-height: normal;
+}
+
+.second>p>span {
+    display: block;
+    text-align: center;
+}
+
+.button {
+    margin: 15px;
+}
+
+.btn{
+    padding: 12px 23px;
+    font-size: 16px;
+    background-color: rgb(33, 192, 255);
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button >a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.grid-container{
+    max-width: 85vw;
+    margin: auto;
+    padding: 25px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    margin: 35px 0px;
+}
+.download :nth-child(2){
+    font-size: 24px;
+    margin: 12px 5px 12px 14px;
+}
+.small{
+    font-size: 12px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 16px;
+    line-height: 2;
+    /* max-width: 302px; */
+}
+.lang-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lang-items :first-child{
+    padding:0 0 10px;
+    font-size: 20px;
+}
+.lang-items .reserved{
+    visibility: hidden;
+}
+.lang-items :last-child{
+    padding: 0 0 10px;
+    font-size: 12px;
+}
+.btn-green{
+    background-color: #5CBB5C;
+}
+.hash{
+    display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 8px;
+}
